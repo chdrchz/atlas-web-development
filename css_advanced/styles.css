@@ -1,19 +1,30 @@
 /* GLOBAL STYLING */
 body {
-    font-family: sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
 }
 
+/* BUTTON STYLING */
+button {
+    background-color: #C271FF;
+    border-radius: 15%;
+
+}
+
 /* HEADER STYLING */
+header {
+    background-image: url('images/background.png');
+    height: auto;
+}
+
 .logo-nav-links {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: aqua;
 }
 
 ul {
@@ -29,17 +40,23 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 /* PEOPLE SECTION */
 .people-container {
     text-align: center;
+    padding: 5rem;
 }
 
 .people {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.hero h1 {
+    font-size: 120px;
 }
 
 /* QUOTE SECTION */
