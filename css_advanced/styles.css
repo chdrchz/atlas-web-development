@@ -16,7 +16,7 @@ button {
 
 /* HEADER STYLING */
 header {
-    background-image: url('images/background.png');
+    background-image: url('static/images/background.png');
     height: auto;
 }
 
