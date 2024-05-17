@@ -1,0 +1,69 @@
+/* GLOBAL STYLING */
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+/* HEADER STYLING */
+.logo-nav-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* HERO SECTION */
+.hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* PEOPLE SECTION */
+.people-container {
+    text-align: center;
+}
+
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* QUOTE SECTION */
+.quote {
+    background-color: aqua;
+    margin: auto;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+/* VIDEO SECTION */
+.videos {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+}
