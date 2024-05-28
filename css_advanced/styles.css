@@ -18,6 +18,12 @@ body {
     color: #FFFFFF;
 }
 
+span {
+    color: #C271FF;
+    font-family: "Custom-Font-Regular";
+    font-weight: bolder;
+}
+
 /* BUTTON STYLING */
 button {
     background-color: #C271FF;
@@ -53,8 +59,7 @@ header {
 }
 
 .logo-nav-links img {
-    width: 6.99rem;
-    height: 0.79rem;
+    height: 100%;
 }
 
 ul {
@@ -140,7 +145,7 @@ li {
     padding-top: 3rem;
 }
 
-.person h2 {
+.people-container h2 {
     font-family: "Custom-Font-Light";
 }
 
@@ -154,12 +159,6 @@ li {
     height: 9.375rem;
 }
 
-span {
-    color: #C271FF;
-    font-family: "Custom-Font-Regular";
-    font-weight: bold;
-}
-
 /* QUOTE STYLING */
 .quote {
     background-color: #C271FF;
@@ -171,6 +170,8 @@ span {
     align-items: center;
     margin-right: 8rem;
     margin-left: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 blockquote {
@@ -180,6 +181,7 @@ blockquote {
 
 .quote-text {
     padding: 4rem;
+    font-size: 1.375rem;
 }
 
 .quote-person-1 {
@@ -197,14 +199,168 @@ blockquote {
 
 /* VIDEO STYLING */
 .videos {
-    background-color: aquamarine;
-    text-align: center;
+    background-color: #FFFFFF;
+    color: black;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: left;
+    margin: 2rem;
 }
 
 .video-container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 75%;
+}
+
+.video {
+    width: calc(25% - 1.25rem);
+}
+
+.videos h1 {
+    text-align: center;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;
+}
+
+.videos h2 {
+    font-size: 1rem;
+}
+
+.videos p {
+    font-size: 0.875rem;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.author img {
+    height: 1.875rem;
+    width: 1.875rem;
+    padding: 0;
+}
+
+.author h3 {
+    color: #C271FF;
+    font-size: 0.875rem;
+    padding-left: 1rem;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.ratings p {
+    color: #C271FF;
+}
+
+/* MEMBERSHIP STYLING */
+.membership {
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-bottom: 4rem;
+}
+
+.memberships {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.membership h1 {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.memberships img {
+    width: 2.7294rem;
+}
+
+.memberships h2 {
+    font-size: 1.125rem;
+}
+
+.memberships p {
+    font-size: 0.875rem;
+}
+
+.individual-memberships {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* FAQ STYLING */
+
+.FAQ {
+    color: #071629;
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+
+.FAQ p {
+    font-size: 0.875rem;
+    padding-bottom: 3.5rem;
+    line-height: 1.6;
+}
+
+.FAQ h3 {
+    font-size: 1rem;
+    font-family: "Custom-Font-Regular";
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.FAQ h2 {
+    font-size: 3.75rem;
+    text-align: center;
+}
+
+.FAQ-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.FAQ-column {
+    flex: 0 0 40%;
+}
+
+/* FOOTER STYLING */
+footer {
+    background-color: #071629;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    padding-bottom: 0rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-container p {
+    color: gray;
 }
